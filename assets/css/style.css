@@ -1,0 +1,297 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  color: #2f334a;
+  background-color: #ececec;
+  background-repeat: repeat;
+  background-position: center top;
+}
+.blue {
+  color: #2794c7;
+}
+.white {
+  color: #fff;
+}
+.purple {
+  color: #96347a;
+}
+.yellow {
+  color: #d1dc37;
+}
+.purple-background {
+  background-color: #96347a;
+}
+.yellow-background {
+  background-color: #d1dc37;
+}
+.blue-background {
+  background-color: #2794c7;
+}
+.darkblue-background {
+  background-color: #2f334a;
+}
+.grey-background {
+  background-color: #f5f5f5;
+}
+.white-background {
+  background-color: #fff;
+}
+
+/* Footer */
+footer {
+  margin-bottom: 40px;
+  margin-top: 20px;
+}
+footer h1 {
+  color: #96347a;
+}
+footer h2 {
+  color: #2794c7
+}
+
+/* NEWSLETTER */
+.newsletter {
+  padding: 50px 0;
+}
+
+/* INSTRAGRAM IMAGES */
+.crop {
+ height: 250px;
+ overflow: hidden;
+}
+.crop img {
+ height: auto;
+ width: 100%;
+}
+
+/* Promo Boxes On Homepage */
+.promo-title {
+  text-align: center;
+  color: #ffffff;
+  padding: 16px 0;
+  text-transform: uppercase;
+  font-size: 20px;
+  margin-top: -54px;
+  opacity: 0.7;
+}
+.promo-img {
+  width: 100%;
+}
+.content {
+  margin-top: -120px;
+}
+.boxes {
+  margin-bottom: 40px;
+}
+
+/* Second Promo Boxes On Homepage*/
+.padding0 {
+  padding: 0;
+}
+.overflow-hidden {
+  overflow: hidden;
+}
+.box-text {
+  line-height: 1.8em;
+  height: 100%;
+}
+.padding20 {
+  padding: 20px;
+}
+.promo_hover {
+  padding: 0px;
+  position: relative;
+  overflow: hidden;
+  height: 200px;
+}
+.promo_hover:hover .caption {
+  opacity: 1;
+  transform: translateY(-150px);
+  -webkit-transform:translateY(-150px);
+  -moz-transform:translateY(-150px);
+  -ms-transform:translateY(-150px);
+  -o-transform:translateY(-150px);
+}
+.promo_hover img{
+  z-index: 4;
+}
+.promo_hover .caption{
+  position: absolute;
+  top:150px;
+  -webkit-transition:all 0.3s ease-in-out;
+  -moz-transition:all 0.3s ease-in-out;
+  -o-transition:all 0.3s ease-in-out;
+  -ms-transition:all 0.3s ease-in-out;
+  transition:all 0.3s ease-in-out;
+  width: 100%;
+}
+.promo_hover .blur{
+  opacity: 0.7;
+  height: 300px;
+  z-index: 5;
+  position: absolute;
+  width: 100%;
+}
+.promo_hover .caption-text{
+  z-index: 10;
+  color: #fff;
+  position: absolute;
+  height: 300px;
+  text-align: center;
+  top:-20px;
+  width: 100%;
+}
+.caption-text h3 {
+  border-top:2px solid white; 
+  border-bottom:2px solid white; 
+  padding:10px;
+  text-transform: uppercase;
+}
+
+/* CUSTOMIZE THE NAVBAR
+-------------------------------------------------- */
+
+/* Special class on .container surrounding .navbar, used for positioning it into place. */
+.navbar-wrapper {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 20;
+}
+
+/* Flip around the padding for proper display in narrow viewports */
+.navbar-wrapper > .container {
+  padding-right: 0;
+  padding-left: 0;
+}
+.navbar-wrapper .navbar {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.navbar-wrapper .navbar .container {
+  width: auto;
+}
+.navbar-brand {
+  float: left;
+  padding: 7px;
+}
+
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+  height: 500px;
+  margin-bottom: 60px;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 10;
+  top: 20%;
+  bottom: auto;
+  left: 5%;
+}
+.carousel-caption h1 {
+  text-shadow: none;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: -30px;
+  font-size: 90px;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+  height: 500px;
+  background-color: #777;
+}
+.carousel-inner > .item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 500px;
+}
+
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 768px) {
+  /* Navbar positioning foo */
+  .navbar-wrapper {
+    margin-top: 20px;
+  }
+  .navbar-wrapper .container {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  .navbar-wrapper .navbar {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  /* The navbar becomes detached from the top, so we round the corners */
+  .navbar-wrapper .navbar {
+    border-radius: 4px;
+  }
+
+  /* Bump up size of carousel content */
+  .carousel-caption {
+    left: -20%;
+  }
+  .title {
+    margin-left: 200px;
+  }
+  .title1 {
+    margin-left: 100px;
+  }
+
+/* Change the nav at 1200px for tablet view */
+@media (max-width: 1200px) {
+    .navbar-header {
+        float: none;
+    }
+    .navbar-left,.navbar-right {
+        float: none !important;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-fixed-top {
+        top: 0;
+        border-width: 0 0 1px;
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin-top: 7.5px;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .collapse.in{
+        display:block !important;
+    }
+    .box-text h2 {
+        font-size: 20px;
+        margin-top: 0px;
+    }
+    .box-text p {
+        font-size: 11px;
+    }
+}
+}
