@@ -1,0 +1,2 @@
+[25-Jan-2016 18:52:49 UTC] PHP Fatal error:  Call to a member function login() on a non-object in /home/itshutchy/public_html/risklessbetting.com/application/controllers/Login.php on line 34
+[25-Jan-2016 18:53:28 UTC] PHP Fatal error:  Call to a member function login() on a non-object in /home/itshutchy/public_html/risklessbetting.com/application/controllers/Login.php on line 34

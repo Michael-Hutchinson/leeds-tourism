@@ -1,0 +1,29 @@
+<div id="MainMenu">
+    <div class="side-header">
+        <h4>In This Section</h4>
+    </div>
+  <div class="list-group panel">
+    <a href="#menu1" class="list-group-item list-group-item-warning" data-toggle="collapse" data-parent="#MainMenu">Admin Dashboard</a>
+    <div class="collapse" id="menu1">
+      <a href="<?php  base_url()?>/admin" class="list-group-item">Admin Home Page</a>
+    </div>
+    <a href="#menu2" class="list-group-item list-group-item-warning" data-toggle="collapse" data-parent="#MainMenu">News Posts</a>
+    <div class="collapse" id="menu2">
+      <a href="<?php  base_url()?>/admin/blog/view" class="list-group-item">News Posts</a>
+    </div>
+    <a href="#menu3" class="list-group-item list-group-item-warning" data-toggle="collapse" data-parent="#MainMenu">Pages</a>
+    <div class="collapse" id="menu3">
+      <a href="<?php  base_url()?>/admin/children/view" class="list-group-item">Children & Young People</a>
+      <a href="<?php  base_url()?>/admin/parents/view" class="list-group-item">Parents & Carers</a>
+      <a href="<?php  base_url()?>/admin/professionals/view" class="list-group-item">Information For Professionals</a>
+    </div>
+    <a href="#menu4" class="list-group-item list-group-item-warning" data-toggle="collapse" data-parent="#MainMenu">Users</a>
+    <div class="collapse" id="menu4">
+      <a href="<?php  base_url()?>/register" class="list-group-item">Add New User</a>
+    </div>
+    <a href="#menu5" class="list-group-item list-group-item-warning" data-toggle="collapse" data-parent="#MainMenu">Annual Reports & Business Plans</a>
+    <div class="collapse" id="menu5">
+      <a href="<?php  base_url()?>/admin/reports/view" class="list-group-item">Annual Reports & Business Plans</a>
+    </div>
+  </div>
+</div>
