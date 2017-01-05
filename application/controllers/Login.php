@@ -68,8 +68,6 @@ class Login extends CI_Controller {
         $this->load->view('main/page_components/footer-tags');
 
         //Load Footer
-    	$this->load->view('main/page_components/form_footer');
+    	$this->load->view('main/page_components/footer');
 	}
 }
-
-
