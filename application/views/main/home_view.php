@@ -133,21 +133,3 @@
             </div>
       </div>
     </section>
-
-    <section id="newsletter" class="blue-background newsletter">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12 text-center">
-            <h2><span class="white">Sign Up For Our Newsletter</span></h2>
-            <p>Sign up to get our latest exclusive updates, deals, offers and promotions</p>
-            <form class="form-inline">
-              <div class="form-group">
-                <label class="sr-only" for="exampleInputEmail3">Email address</label>
-                <input type="email" class="form-control" id="exampleInputEmail3" placeholder="Enter email">
-              </div>
-              <button type="submit" class="btn btn-primary">Submit</button>
-            </form>
-          </div>
-        </div>
-      </div>
-    </section>

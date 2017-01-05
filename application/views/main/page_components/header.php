@@ -12,20 +12,20 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              <a class="navbar-brand" href="#">
+              <a class="navbar-brand" href="/">
                 <img alt="Leeds Logo" src="assets/images/leeds-logo.png">
               </a>
             </div>
             <div id="navbar" class="navbar-collapse collapse" aria-expanded="false" style="height: 1px;">
               <ul class="nav navbar-nav">
-                <li class="active"><a href="#">Home <span class="sr-only">(current)</span></a></li>
+                <li class="active"><a href="/">Home <span class="sr-only">(current)</span></a></li>
                 <li><a href="#">Stay</a></li>
                 <li><a href="#">See & Do</a></li>
                 <li><a href="#">Eat & Drink</a></li>
                 <li><a href="#">Whats On</a></li>
-                <li><a href="#">City Map</a></li>
+                <li><a href="map">City Map</a></li>
                 <li><a href="#">Travelling</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="contact">Contact</a></li>
               </ul>
               <form class="navbar-form navbar-right">
                 <div class="form-group">

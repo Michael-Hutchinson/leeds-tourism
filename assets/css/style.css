@@ -295,3 +295,11 @@ footer h2 {
     }
 }
 }
+
+
+
+.map {
+  height: 400px;
+  width: 100%;
+  border:2px solid #96347a;
+}
