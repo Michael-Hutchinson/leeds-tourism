@@ -35,5 +35,13 @@ class User_model extends CI_Model {
         if($query) return true;
         else return false;
     }
+
+    public function register_user($first_name, $surname, $email, $username, $password) {
+        $stmt = "INSERT INTO user(first_name, surname, email, username, password) VALUES(?, ?, ?, ?, ?)";
+        $query = $this->pdo->query($stmt, array($first_name, $surname, $email, $username, $password));  
+        
+        if($query) return true;
+        else return false;
+    }
 }
 ?>

@@ -1,21 +1,13 @@
-<!-- Page Heading/Breadcrumbs -->
-<div class="row">
-    <div class="col-lg-12">
-        <div class="page-header">
-            <h1>Edit News Post</h1>
-            <small>Subheading</small>
-        </div>
-        <ol class="breadcrumb">
-            <li><a href="/logout" onclick="return confirm('Are You Sure You Want To Logout?');">Logout</a>
-            </li>
-            <li><a href="/admin">Admin Dashboard</a>
-            </li>
-            <li><a href="/admin/view">Edit News</a>
-            </li>
-            <li class="active">Edit News Post</li>
-        </ol>
-    </div>
-</div>
+    <section id="boxes">
+    <div class="content">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 col-sm-12 col-md-12 boxes">
+            <div class="white-background overflow-hidden">
+                <div class="col-xs-12 col-sm-12 padding0">
+                  <div class="padding20 box-text">
+                    <h2><span class="blue">EDIT NEWS POSTS</span></h2>
+                      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit.</p>
 
         <div class="row">
             <!-- Sidebar Column -->
@@ -77,3 +69,13 @@
 
         </div>
         </div>
+
+
+                  </div>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </section>

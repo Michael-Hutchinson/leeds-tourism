@@ -27,23 +27,21 @@
           <div class="col-md-2 col-sm-4">
             <h2>About</h2>
               <ul class="list-unstyled">
-                <li>About</li>
-                <li>FAQ</li>
-                <li>Contact</li>
-                <li>Login</li>
-                <li>Register</li>
-                <li>T&C's</li>
+                <li><a href="faq">FAQ</a></li>
+                <li><a href="contact">Contact</a></li>
+                <li><a href="login">Login</a></li>
+                <li><a href="register_user">Register</a></li>
               </ul>
           </div>
           <div class="col-md-2 col-sm-4">
             <h2>Discover</h2>
               <ul class="list-unstyled">
-                <li>Stay</li>
-                <li>See & Do</li>
-                <li>Eat & Drink</li>
-                <li>Whats On</li>
-                <li>City Map</li>
-                <li>Travelling</li>
+                <li><a href="/stay">Stay</a></li>
+                <li><a href="/see">See & Do</a></li>
+                <li><a href="/eat">Eat & Drink</a></li>
+                <li><a href="blog">Latest News</a></li>
+                <li><a href="map">City Map</a></li>
+                <li><a href="travel">Travelling</a></li>
               </ul>
           </div>
           <div class="col-md-2 col-sm-4">

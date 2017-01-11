@@ -35,7 +35,7 @@
                     <div class="caption-text">
                       <h3>Staying Over</h3>
                       <p>See the best places to stay</p>
-                      <button type="submit" class="btn btn-primary">Info</button>
+                      <a class="btn btn-primary" href="stay" role="button">Info</a>
                     </div>
                 </div>
             </div>
@@ -48,7 +48,7 @@
                     <div class="caption-text">
                       <h3>Eat & Drink</h3>
                       <p>See the best places to stay</p>
-                      <button type="submit" class="btn btn-primary">Info</button>
+                      <a class="btn btn-primary" href="eat" role="button">Info</a>
                     </div>
                 </div>
             </div>
@@ -61,7 +61,7 @@
                     <div class="caption-text">
                       <h3>See & Do</h3>
                       <p>See the best places to stay</p>
-                      <button type="submit" class="btn btn-primary">Info</button>
+                      <a class="btn btn-primary" href="see" role="button">Info</a>
                     </div>
                 </div>
             </div>
@@ -74,7 +74,7 @@
                     <div class="caption-text">
                       <h3>City Map</h3>
                       <p>See the best places to stay</p>
-                      <button type="submit" class="btn btn-primary">Info</button>
+                      <a class="btn btn-primary" href="map" role="button">Info</a>
                     </div>
                 </div>
             </div>
@@ -96,7 +96,7 @@
                   <div class="padding20 box-text">
                     <h2><span class="blue">WE ARE LEEDS</span></h2>
                       <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit.</p>
-                      <p><button type="button" class="btn btn-primary">Read More</button></p>
+                      <p><a class="btn btn-primary" href="travel" role="button">Read More</a></p>
                   </div>
                 </div>
             </div>
@@ -109,9 +109,9 @@
               </div>
                 <div class="col-xs-12 col-sm-6 padding0">
                   <div class="padding20 box-text">
-                    <h2><span class="purple">WHATS ON</span></h2>
+                    <h2><span class="purple">LATEST NEWS</span></h2>
                       <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit.</p>
-                      <p><button type="button" class="btn btn-primary">Read More</button></p>
+                      <p><a class="btn btn-primary" href="blog" role="button">Read More</a></p>
                   </div>
                 </div>
             </div>

@@ -13,19 +13,19 @@
                 <span class="icon-bar"></span>
               </button>
               <a class="navbar-brand" href="/">
-                <img alt="Leeds Logo" src="assets/images/leeds-logo.png">
+                <img alt="Leeds Logo" src="/assets/images/leeds-logo.png">
               </a>
             </div>
             <div id="navbar" class="navbar-collapse collapse" aria-expanded="false" style="height: 1px;">
               <ul class="nav navbar-nav">
-                <li class="active"><a href="/">Home <span class="sr-only">(current)</span></a></li>
-                <li><a href="#">Stay</a></li>
-                <li><a href="#">See & Do</a></li>
-                <li><a href="#">Eat & Drink</a></li>
-                <li><a href="#">Whats On</a></li>
-                <li><a href="map">City Map</a></li>
-                <li><a href="#">Travelling</a></li>
-                <li><a href="contact">Contact</a></li>
+                <li><a href="/">Home <span class="sr-only">(current)</span></a></li>
+                <li><a href="/stay">Stay</a></li>
+                <li><a href="/see">See & Do</a></li>
+                <li><a href="/eat">Eat & Drink</a></li>
+                <li><a href="/blog">Latest News</a></li>
+                <li><a href="/map">City Map</a></li>
+                <li><a href="/travel">Travelling</a></li>
+                <li><a href="<?php print base_url().'contact'; ?>">Contact</a></li>
               </ul>
               <form class="navbar-form navbar-right">
                 <div class="form-group">
@@ -44,7 +44,7 @@
       <!-- Indicators -->
       <div class="carousel-inner" role="listbox">
         <div class="item active">
-          <img class="first-slide" src="assets/images/leeds-hero.png" alt="First slide">
+          <img class="first-slide" src="/assets/images/leeds-hero.png" alt="First slide">
           <div class="container">
             <div class="carousel-caption">
               <h1 class="title"><span class="blue">LEEDS</span>.</h1>

@@ -9,33 +9,33 @@
                     <h2><span class="blue">CITY MAP</span></h2>
                       <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit.</p>
 
-                <!-- Contact Form -->
-<div class="row">
-    <!-- Map Column -->
-    <div class="col-md-8">
-        <!-- Google Map -->
-        <div class="map" id="map"></div>
-                <div class="hidden-lg hidden-md"><hr></div>
-    </div>
-    <!-- Contact Details Column -->
-    <div class="col-md-4">
-        <address>
-          <strong>Leeds. Leeds. Leeds</strong><br>
-          The Headrow,<br>
-          Leeds,<br>
-          LS1 3AA.
-        </address>
+                <!-- Map -->
+                <div class="row">
+                    <!-- Map Column -->
+                    <div class="col-md-8">
+                        <!-- Google Map -->
+                        <div class="map" id="map"></div>
+                                <div class="hidden-lg hidden-md"><hr></div>
+                    </div>
+                    <!-- Contact Details Column -->
+                    <div class="col-md-4">
+                        <address>
+                          <strong>Leeds. Leeds. Leeds</strong><br>
+                          The Headrow,<br>
+                          Leeds,<br>
+                          LS1 3AA.
+                        </address>
 
-        <p><i class="fa fa-phone"></i> 
-            <abbr title="Telephone">T</abbr>: +44 (0) 113 378 6977</p>
-        <p><i class="fa fa-envelope-o"></i> 
-            <abbr title="Email">E</abbr>: <a href="mailto:tourinfo@leeds.gov.uk">tourinfo@leeds.gov.uk</a>
-        </p>
-        <p><i class="fa fa-clock-o"></i> 
-            <abbr title="Hours">H</abbr>: Monday - Friday: 9:00 AM to 5:00 PM</p>
-            
-    </div>
-</div>
+                        <p><i class="fa fa-phone"></i> 
+                            <abbr title="Telephone">T</abbr>: +44 (0) 113 378 6977</p>
+                        <p><i class="fa fa-envelope-o"></i> 
+                            <abbr title="Email">E</abbr>: <a href="mailto:tourinfo@leeds.gov.uk">tourinfo@leeds.gov.uk</a>
+                        </p>
+                        <p><i class="fa fa-clock-o"></i> 
+                            <abbr title="Hours">H</abbr>: Monday - Friday: 9:00 AM to 5:00 PM</p>
+                            
+                    </div>
+                </div>
 
 
                   </div>
@@ -62,11 +62,9 @@ mapTypeId: google.maps.MapTypeId.HYBRID
 var contentString = '<div id="content">'+
   '<div id="siteNotice">'+
   '</div>'+
-  '<h2 id="firstHeading" class="firstHeading">Hartlepool Safeguarding Childrens Board</h2>'+
+  '<h2 id="firstHeading" class="firstHeading">Visit Our Offices</h2>'+
   '<div id="bodyContent">'+
-  '<p><b>Hartlepool Borough Council</b></br>'+
-  'Victoria Rd, Hartlepool TS24 8AY,</br>'+
-  'United Kingdom'+
+  '<p><b>For More Information</b></br>'+
   '</div>'+
   '</div>';
 
